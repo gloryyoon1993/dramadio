@@ -1,0 +1,115 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: black;}
+ul{list-style: none;}
+
+body{font-size: 13px;
+    line-height: 22px;
+    font-family: '나눔고딕';
+    color: rgb(16, 16, 16);
+}
+
+/* 탑 */
+.top{width: 1200px; margin: 0 auto; height: 45px;}
+.link1{float: right;}
+.link1 li{float: left;}
+.link1 li a{display: block; color: gray; padding-left: 20px; padding-top: 11px;}
+.link1 li a:hover{color: #ccc;}
+
+/* 로고 */
+.logo{width: 1200px; display: flex; margin: 0 auto; justify-content: center; height: 130px;}
+
+/* 헤더 */
+
+.header{
+    width:100%;
+    height:70px; /*수정*/
+    font-size:20px;
+    box-sizing:border-box;
+	border-bottom: 1px solid #ccc;
+	text-align:center;
+    margin:0 auto;
+    position:relative;
+    
+}
+
+.main_nav >ul{overflow:hidden; width:1200px; margin:0 auto;}
+.main_nav >ul> li{float:left;width:20%;}
+.main_nav >ul> li> a{display:block; color:black;padding:15px 0px; font-weight: 600; font-size:18px; text-align:center;}
+
+.main_nav >ul >li> a:hover{color: #e50271;}
+
+.sub{width:100%; position:absolute; top:50px;  left:0; background: black;  display: none; border-bottom: #e50271 solid 3px;}
+.sub_menu{ width:1200px; margin:0 auto;}
+.sub_menu .menu{float:left; text-align:center; width:20%;}
+
+.sub_menu .menu >li> a{display:block;  font-size:15px; padding:15px 0px; text-align:center;
+					background:black; 
+}
+
+.menu >li> a{color:#e50271;}
+.menu> li> a:hover{color: white;}
+
+
+
+/* 메인배너 */
+.banner1{width: 1200px; height: 480px;  padding-top: 20px; margin: 0 auto;}
+.banner1 img{width: 100%;}
+
+/* 박스 1 */
+
+.box1{width: 1200px; margin: 10px auto; height: 74px; margin-top: 20px;}
+.box1 h1{float: left; padding-top: 46px; font-size: 24px;}
+.box1 a{float: right; font-size: 16px; padding-top: 46px; font-weight: bold;}
+.box1 img{float: right; display: block; padding-top: 3px; padding-left: 5px;}
+.box1 a:hover{color: #e50271;}
+
+/* 서브베너 */
+.sub_banner{width: 1200px; margin: 0 auto; padding-top: 40px;}
+
+/* 아이콘즈 */
+
+.icons{width: 1200px; height: 330px; margin: 80px auto;}
+
+.box2{width: 370px; height: 330px; float: left; border: #ccc 3px solid; box-sizing: border-box; padding: 40px; background: url(icon1.png) no-repeat 230px 180px;}
+.box2 h1{font-size: 25px;}
+.box2 p{padding: 30px 0 60px 0; font-size: 15px;}
+.box2 a{display: inline-block; font-size: 15px; padding: 5px 10px; border: #e50271 1px solid; color: #e50271;}
+.box2 a:hover{background-color: black; color: white;}
+
+
+.box3{width: 370px; height: 330px; float: left; border: #ccc 3px solid; box-sizing: border-box; padding: 40px; margin: 0 45px; background: url(icon2.png) no-repeat 215px 150px;}
+.box3 h1{font-size: 25px;}
+.box3 p{padding: 30px 0 100px 0; font-size: 17px;}
+.box3 a{display: inline-block; font-size: 15px; padding: 5px 10px; border: #e50271 1px solid; color: #e50271;}
+.box3 a:hover{background-color: black; color: white;}
+
+.box4{width: 370px; height: 330px; float: left; border: #ccc 3px solid; box-sizing: border-box; padding: 40px; background: url(icon3.png) no-repeat 205px 150px;}
+.box4 h1{font-size: 25px;}
+.box4 p{padding: 30px 0 75px 0; font-size: 17px;}
+.box4 a{display: inline-block; font-size: 15px; padding: 5px 10px; border: #e50271 1px solid; color: #e50271;}
+.box4 a:hover{background-color: black; color: white;}
+
+/* 풋터 */
+
+.fotter{width: 100%; height: 500px; border-top: 1px solid #ccc;}
+.fotter_inner{width: 1200px; margin: 0 auto; height: 500px;  position: relative;}
+
+
+.link2{position: absolute; top: 20px; left: 0%; width: 900px; text-align: center;} 
+.link2_inner{float: left; padding:  10px 0px; box-sizing: border-box; width: 176px; height: 212px; border-right: 1px dotted #ccc;}
+.link2_inner a{ display: block; color: gray;}
+.link2_inner a:hover{color: #ccc;}
+.word1{font-size: 17px; font-weight: bold;}
+
+
+
+
+.box5{position: relative; top: 0; left: 900px; width: 300px; height: 200px; background: url(icon4.jpg) no-repeat 200px 100px; padding: 30px;}
+.box5 h1{color: #e50271; font-size: 31px; }
+.box5 p{color: gray; font-size: 14px; line-height: 30px; padding-top: 30px;}
+
+.bottom{position:absolute; bottom: 20px; left: 50%; margin-left: -227.5px; text-align: center; font-size: 12px; color: gray;}
+.bottom p{padding-bottom: 5px;}
+.bottom a img{padding-top: 20px;}
+
+
